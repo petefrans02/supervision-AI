@@ -1,14 +1,9 @@
-// app/layout.tsx
-
-export const metadata = {
-  title: 'Supervision AI',
-  description: 'Simple video generation UI',
-};
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head />
+      <head>
+        <title>Supervision AI</title>
+      </head>
       <body>{children}</body>
     </html>
   );
